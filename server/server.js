@@ -66,19 +66,19 @@ app.post('/subscribe', (req, res) => {
 // Add as many as you want — one is picked at random on every send.
 const NOTIFICATION_VERSIONS = [
   {
-    title: 'Shopwise',
-    body: 'New arrivals just landed — take a look.',
-    photo: ''
+    title: 'Shopify',
+    body: 'Fashion has a new order for 2 items totaling $ 70.49 from Online store.',
+    photo: 'https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdev%3Fid%3D8929232438554100687&ved=0CBYQjRxqFwoTCIi6gdiEyZUDFQAAAAAdAAAAABA3&opi=89978449'
   },
   {
     title: 'Shopwise',
-    body: '20% off ends tonight.',
-    photo: ''
+    body: 'wow has a new order for 1 items totaling $ 19.50 from Online store.',
+    photo: 'https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdev%3Fid%3D8929232438554100687&ved=0CBYQjRxqFwoTCIi6gdiEyZUDFQAAAAAdAAAAABA3&opi=89978449'
   },
   {
     title: 'Shopwise',
-    body: 'Your cart is waiting for you.',
-    photo: ''
+    body: 'Cool has a new order for 3 items totaling $ 103.29 from Online store.,
+    photo: 'https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdev%3Fid%3D8929232438554100687&ved=0CBYQjRxqFwoTCIi6gdiEyZUDFQAAAAAdAAAAABA3&opi=89978449'
   }
 ];
 

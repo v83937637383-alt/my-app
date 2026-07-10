@@ -77,7 +77,7 @@ const NOTIFICATION_VERSIONS = [
   },
   {
     title: 'Shopify',
-    body: 'Cool has a new order for 3 items totaling $ 103.39 from Online store.,
+    body: 'Cool has a new order for 3 items totaling $ 103.39 from Online store.',
     photo: 'https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdev%3Fid%3D8929232438554100687&ved=0CBYQjRxqFwoTCIi6gdiEyZUDFQAAAAAdAAAAABA3&opi=89978449'
   }
 ];

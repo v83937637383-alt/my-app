@@ -89,8 +89,7 @@ function appendLog(entry) {
 function pickRandom(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
-
-const ADMIN_SECRET = 'Salirtriunfante_code';
+const ADMIN_SECRET = process.env.ADMIN_SECRET || 'set-this-in-render';
 
 function requireKey(req, res, next) {
   if (req.query.key !== ADMIN_SECRET) {
